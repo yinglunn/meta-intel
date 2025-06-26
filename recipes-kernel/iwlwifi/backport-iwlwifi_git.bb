@@ -5,7 +5,7 @@ LICENSE = "GPL-2.0-only"
 
 REQUIRED_DISTRO_FEATURES = "wifi"
 
-LIC_FILES_CHKSUM = "file://${S}/COPYING;md5=bbea815ee2795b2f4230826c0c6b8814"
+LIC_FILES_CHKSUM = "file://${S}/COPYING;md5=6bc538ed5bd9a7fc9398086aedcd7e46"
 
 inherit module
 
@@ -17,8 +17,8 @@ inherit module
 # When updating this recipe, ensure that the proper firmware is included from
 # either the linux-firmware or iwlwifi-firmware repos.
 
-PV = "45"
-SRCREV = "a75c1de6b3fa87885556c67619429cfa87cc048f"
+PV = "96"
+SRCREV = "d16e74cc1c76ffbfc335153daa86660f199a90da"
 
 SRC_URI = " \
            git://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi;branch=release/core${PV} \
